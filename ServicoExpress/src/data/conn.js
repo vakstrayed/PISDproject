@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('cvlipe', 'root', 'W3@r30n3', {
+const sequelize = new Sequelize('cvlipe', 'root', 'root', {
   host: 'localhost',
   dialect: 'mysql',
-  operatorsAliases: false,
+  operatorsAliases: 0,
 
   pool: {
     max: 5,
